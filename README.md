@@ -1,22 +1,15 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wutang Clan Name Generator 
+A survey that awards you with your own Wutang Clan name.
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+## How It's Made:
 
-### How to submit your code for review:
+**Tech used:** HTML, CSS, JavaScript, and Node.js
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+A majority of the application is built with javascrit. Each button in the form is equipped with an add event listener which allows for an action to take place when it is clicked. In order to produce a specific result after a user selects a certain button combination, each button was declared as a variable and given an initial value of zero. When a user clicked on the button, it would be given a value specified in the html. Adding all of these values together would produce a specific Wutang Name. 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Lessons Learned:
+I learned a strategy for providing specific responses to a user's f orm submission via this project. I will deinitely be using this logic in future projects. 
+
+
+
+
